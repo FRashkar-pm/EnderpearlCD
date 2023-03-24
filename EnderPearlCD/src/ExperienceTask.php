@@ -11,7 +11,7 @@ class ExperienceTask extends Task
     {
     }
 
-    public function onRun():
+    public function onRun()
     {
         $player = $this->player;
         $cooldown = Base::getInstance()->cooldown[$player->getName()] ?? 0;
