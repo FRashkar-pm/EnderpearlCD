@@ -1,0 +1,37 @@
+#
+#     ▄███████▄    ▄████████    ▄████████    ▄████████  ▄█             ▄████████ ████████▄
+#    ███    ███   ███    ███   ███    ███   ███    ███ ███            ███    ███ ███   ▀███
+#    ███    ███   ███    █▀    ███    ███   ███    ███ ███            ███    █▀  ███    ███
+#    ███    ███  ▄███▄▄▄       ███    ███  ▄███▄▄▄▄██▀ ███            ███        ███    ███
+#  ▀█████████▀  ▀▀███▀▀▀     ▀███████████ ▀▀███▀▀▀▀▀   ███            ███        ███    ███
+#    ███          ███    █▄    ███    ███ ▀███████████ ███            ███    █▄  ███    ███
+#    ███          ███    ███   ███    ███   ███    ███ ███▌    ▄      ███    ███ ███   ▄███
+#   ▄████▀        ██████████   ███    █▀    ███    ███ █████▄▄██      ████████▀  ████████▀
+#                                           ███    ███ ▀
+#
+
+# Cooldown in seconds
+cooldown: 10
+
+# Type of message that will be sent when the player tries to use a pearl while in cooldown
+# Avaible: popup, toast, message (false for disable)
+in-cooldown-type: popup
+
+# Message that will be sent when the player tries to use a pearl while in cooldown
+in-cooldown-message: §cYou are in cooldown, please wait {time}
+
+# Is the player in cooldown pearl if he is in creative or specator
+creative-cooldown: false
+
+# Is the current cooldown displayed in the xp bar in real time
+experience-cooldown: true
+
+# How many ticks does the xp bar refresh?
+update-experience: 1
+
+# Type of message sent when the cooldown of enderpearl is ended
+# Avaible: popup, toast, message (false for disable)
+ended-cooldown-type: popup
+
+# Message sent when the cooldown of enderpearl is ended
+ended-cooldown-message: §cYou are no longer in pearl cooldown

@@ -1,0 +1,8 @@
+name: EnderPearlCD
+main: EnderPearlCD\Base
+
+src-namespace-prefix: EnderPearlCD
+
+author: Kyan
+api: [ 4.0.0 ]
+version: 1.0.0
